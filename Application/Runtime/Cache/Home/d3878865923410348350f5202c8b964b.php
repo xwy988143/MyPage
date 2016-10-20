@@ -426,7 +426,7 @@
                                 </a>
                                 <div class="media-body">
                                     <h4 class="media-heading"><?php echo ($vo['description']); ?></h4>
-                                    <a href="<?php echo ($vo['url']); ?>"><?php echo ($vo['title']); ?></a>
+                                    <a target="_blank" href="<?php echo ($vo['url']); ?>"><?php echo ($vo['title']); ?></a>
                                 </div>
                             </div><?php endforeach; endif; else: echo "" ;endif; ?>
                         </div>

@@ -24,7 +24,7 @@
                                 </a>
                                 <div class="media-body">
                                     <h4 class="media-heading">{$vo['description']}</h4>
-                                    <a href="{$vo['url']}">{$vo['title']}</a>
+                                    <a target="_blank" href="{$vo['url']}">{$vo['title']}</a>
                                 </div>
                             </div>
                                 </volist>
