@@ -121,4 +121,30 @@ class AdminController extends CommonController
             $this->success('删除成功');
         }
     }
+
+    public function profile()
+    {
+
+        if(IS_POST){
+            $datas = I('tags');
+            $tags="";
+            foreach($datas as $key => $value) {
+                $tags .= $value . ',';
+            }
+            $data['name'] = I('name');
+            $data['position'] = I('position');
+            $data['tags'] = $tags;
+            $data['degree'] = I('degree');
+            $data['description'] = I('description');
+            $data['background'] = I('background');
+            $res = M('person') -> add($data);
+            if($res){
+                $this->success('成功');
+            }else{
+                $this->error('失败');
+            }
+        }else{
+            $this->display();
+        }
+    }
 }

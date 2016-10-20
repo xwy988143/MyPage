@@ -13,3 +13,17 @@ return [
         ['id'=>'2','title'=>'体坛快讯'],
     ]
 ];
+
+return
+    [
+    'name'          =>'肖文禹',
+    'tags'          =>'PHP,Swift',
+    'position'      =>'学生',
+    'degree'        =>'硕士(Liverpool U)',
+    'description'   =>'个人评价',
+    'background'    =>'背景描述',
+    'skill1'        =>'php',
+    'skill2'        =>'mysql',
+    'skill3'        =>'swift',
+    'skill4'        =>'java',
+    ];
