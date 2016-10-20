@@ -1,0 +1,1568 @@
+[ 2016-09-23T16:11:28+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-09-23T16:11:28+08:00 ] ::1 /look/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-09-23T16:11:34+08:00 ] ::1 /look/index.php?m=Home&c=Login&a=doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-09-23T16:11:34+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/0ba810056fcbab3580f390a2d2c2f3d0.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-09-23T16:11:39+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-09-23T16:11:40+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2016-09-23T16:11:41+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d0a835be9cb7521efd528543a3010436.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-09-23T16:11:42+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-09-23T16:11:42+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2016-09-23T16:19:34+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-09-23T16:19:35+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2016-09-23T16:19:35+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+ERR: syntax error, unexpected '<', expecting end of file
+
+[ 2016-09-23T16:19:50+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-09-23T16:20:00+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-09-23T16:20:33+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-09-23T17:07:24+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-09-23T17:07:37+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-09-23T17:07:59+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2016-09-23T17:08:01+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-09-23T17:08:47+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-09-23T17:09:06+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-09-23T17:12:06+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;res&quot;,id=&quot;vo&quot; /&gt;&lt;/tpl&gt; /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;res&quot;,id=&quot;vo&quot; /&gt;&lt;/tpl&gt; /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="res",id="vo"
+
+[ 2016-09-23T17:12:52+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [2] Illegal string offset 'count' /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Uninitialized string offset: 0 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: count /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-09-23T17:13:52+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [2] Illegal string offset 'posts' /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Uninitialized string offset: 0 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [2] Illegal string offset 'name' /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Uninitialized string offset: 0 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: posts /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-09-23T17:13:54+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [2] Illegal string offset 'posts' /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Uninitialized string offset: 0 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [2] Illegal string offset 'name' /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Uninitialized string offset: 0 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: posts /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-09-23T17:14:09+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-09-23T17:14:32+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php:70) /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php:70) /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php:70) /Applications/XAMPP/xamppfiles/htdocs/Look/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-09-23T17:14:58+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+
+[ 2016-09-23T17:15:07+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-09-23T17:17:38+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-09-23T17:18:24+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-09-23T17:18:25+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-09-23T17:20:49+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-09-23T17:21:03+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-09-23T17:21:35+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-09-23T17:24:41+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-09-23T17:25:59+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index:  /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 10 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+NOTIC: [2] Illegal offset type /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+
+[ 2016-09-23T17:26:27+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index:  /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 10 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+NOTIC: [2] Illegal offset type /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+
+[ 2016-09-23T17:26:55+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+NOTIC: [2] Illegal string offset 'posts' /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+NOTIC: [8] Uninitialized string offset: 0 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+NOTIC: [8] Undefined index: posts /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 74 行.
+
+[ 2016-09-23T17:27:24+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2] Illegal string offset 'posts' /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 75 行.
+NOTIC: [8] Uninitialized string offset: 0 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 75 行.
+NOTIC: [8] Undefined index: posts /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: data1 /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 78 行.
+
+[ 2016-09-23T17:28:13+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+
+[ 2016-09-23T17:29:22+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-09-23T17:29:55+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-09-23T17:32:28+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-09-23T17:32:44+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-09-23T17:33:50+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-09-23T17:34:48+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-09-23T17:34:58+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-09-23T17:47:14+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-09-23T17:47:31+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-09-23T17:47:35+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-09-23T17:52:48+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-09-23T17:53:04+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: newslist /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Home/Controller/AdminController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-09-23T17:53:13+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-09-23T17:53:24+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+NOTIC: [8] Undefined index: publishtime /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 406 行.
+NOTIC: [8] Undefined index: excerpt /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-09-23T17:54:37+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+
+[ 2016-09-23T17:54:53+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-09-23T20:56:32+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-09-23T20:56:59+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-09-23T20:58:10+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-09-23T20:58:36+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-09-23T21:00:01+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2016-09-23T21:00:04+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2016-09-23T21:01:24+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-09-23T21:01:30+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-09-23T21:11:29+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-09-23T21:11:42+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-09-23T21:12:03+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-09-23T21:12:11+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-09-23T21:13:35+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d3878865923410348350f5202c8b964b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-09-23T21:14:49+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/d0a835be9cb7521efd528543a3010436.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-09-23T21:14:53+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002871s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-09-23T21:14:54+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2016-09-23T21:14:59+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2016-09-23T21:17:08+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-09-23T21:17:25+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-09-23T21:17:25+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2016-09-23T21:18:36+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-09-23T21:18:36+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2016-09-23T21:18:53+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-09-23T21:18:53+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2016-09-23T21:27:46+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-09-23T21:27:51+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2016-09-23T21:28:12+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-09-23T21:28:13+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2016-09-23T21:28:14+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+
+[ 2016-09-23T21:28:35+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2016-09-23T21:37:24+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: menuid /Applications/XAMPP/xamppfiles/htdocs/Look/Application/Runtime/Cache/Home/a12201fab8ddd1f6fcdd4ed184c69ab3.php 第 370 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-09-23T21:37:24+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_passage` WHERE ( title like '%%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_passage` WHERE ( title like '%%' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-09-23T21:37:25+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0011s ]
+ERR: Think\Model:getOneInfo方法不存在！
+
+[ 2016-09-23T21:38:01+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0018s ]
+ERR: Think\Model:getOneInfo方法不存在！
+
+[ 2016-09-23T21:38:02+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0019s ]
+ERR: Think\Model:getOneInfo方法不存在！
+
+[ 2016-09-23T21:38:03+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0019s ]
+ERR: Think\Model:getOneInfo方法不存在！
+
+[ 2016-09-23T21:38:04+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0019s ]
+ERR: Think\Model:getOneInfo方法不存在！
+
+[ 2016-09-23T21:38:31+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_passage` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2016-09-23T21:39:26+08:00 ] ::1 /look/index.php?m=Home&c=Admin&a=editArticle&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `think_passage` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_passage` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 模板不存在:./Application/Home/View/Admin/editArticle.php
+
